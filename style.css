@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-link{
+    color: black !important;
+    margin-left: 50px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: #1ec9be  !important;
+    font-weight: 700;
+}
+
+
+#section1 .main{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main .image{
+    margin-top: -160px;
+}
+
+.main .image img{
+    float: left;
+    max-width: 90%;
+    max-height: 850px;
+}
+
+.info{
+    padding: 10px;
+    margin-top: 160px;
+    margin-right: 100px;
+
+}
+
+.info h2{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+
+.info p{
+    font-size: 20px;
+    color: grey;
+}
+
+.info a{
+    padding: 15px 20px;
+    
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    background-color: #1ec9be
+}
+
+.info2{
+    /* text-align: center; */
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: 100px !important; */
+    padding: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.info2 h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.info2 p{
+    font-size: 18px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.main2{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px; 
+}
+
+.main2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 0px;
+
+}
+
+.main2 .image{
+    margin-top: 0px;
+
+}
+
+.main2 .image img{
+    float: right;
+    max-width: 100%;
+    max-height: 950px;
+
+}
+
+.info3{
+    padding: 10px;
+    margin-top: 150px;
+
+
+}
+
+.info3 h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.info3 p{
+    font-size: 18px;
+    color: black;
+}
+
+.progress-bar{
+    background-color: #1ec9be ;
+
+}
+
+.progress{
+height: 6px;
+}
+
+
+
+
+#section4{
+    margin-top: 0px !important;
+
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+
+.gallery22{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+
+    margin-top: 0px !important;
+     margin-bottom: 0px !important;       
+
+}
+.card22 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+.card22{
+        padding: 50px;
+        margin-left:  20px;
+}
+
+.card22  h4{
+   margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .gallery22{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+
+        margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    }
+    
+    .card22 {
+        padding: 8px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+/* Section5 */
+
+#section5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.main3{
+    width: 100%;
+    /* padding: 0 100px; */
+    margin: auto;
+
+}
+
+
+.main3 .gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.card{
+    max-width: 100%;
+    padding: .5px;
+}
+
+@media only screen and (max-width:1200px){
+    .main3 .gallery{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+    }   
+    .main3{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .main3 .gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }   
+
+}
+
+
+/*section seven*/
+
+
+
+/* Section 4 */
+
+#section7{
+    margin: auto;
+    width: 100%;
+}
+
+
+.gallery4{
+    margin-top: 50px !important;
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.card4{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card4 h4{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:928px){
+    .gallery4{
+        width: 100%;
+    }
+    .card4 h4{
+        font-size: 25 px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:800px){
+    .gallery4{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+}
+
+
+.gallery1{
+    display: grid;
+    text-align: center;
+    width: 90%;
+    margin: 100px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.one a{
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    background-color: #1ec9be;
+    margin-left: 200px;
+    margin-bottom: : 50px;
+
+}
+
+
+
