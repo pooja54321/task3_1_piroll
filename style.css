@@ -379,4 +379,73 @@ form input[type="submit"] {
     font-weight: 600;
     cursor: pointer;
 
+}
 
+footer{
+    background-color: black;
+    padding: 40px;
+    color: #fff;
+}
+
+
+
+footer ul li{
+    list-style: none;
+    color: gray;
+}
+footer ul li a{
+    text-decoration: none;
+    color: gray !important;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: white !important;
+    transition: all 0.5s;
+}
+
+.col-sm-2{
+    padding: 0 !important;
+}
+
+@media only screen and (max-width:910px){
+    footer p,footer a{
+        font-size: small;
+    }
+}
+
+
+.footer-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.footer-card{
+    padding: 5px;
+}
+
+.sub-footer-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+
+@media only screen and (max-width:768px){
+   footer{
+       padding: 15px;
+   } 
+   .footer-row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+   }
+    
+   .sub-footer-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
