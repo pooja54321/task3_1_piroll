@@ -260,10 +260,6 @@ height: 6px;
 
 /*section seven*/
 
-
-
-/* Section 4 */
-
 #section7{
     margin: auto;
     width: 100%;
@@ -276,6 +272,7 @@ height: 6px;
     margin: auto;
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
+
 
 }
 .card4{
@@ -308,6 +305,50 @@ height: 6px;
 }
 
 
+
+
+
+.gallery4-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: auto !important;
+    padding: 60px 0 !important;
+}
+
+.card4-1{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .gallery4-1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mySlides p{
+        font-size: small;
+    }
+    .mySlides{
+        padding: 0;
+    }
+    p.author{
+        font-size: xx-small;
+    }
+    .prev, .next{
+        display: none;
+    }
+}
+
+
+
+
+#section-8{
+
+        min-width: 100vw;
+    min-height: 100vh;
+
+}
+
 .gallery1{
     display: grid;
     text-align: center;
@@ -316,17 +357,26 @@ height: 6px;
     grid-template-columns: repeat(5, 1fr);
 }
 
-
-.one a{
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: medium;
-    color: white;
-    background-color: #1ec9be;
-    margin-left: 200px;
-    margin-bottom: : 50px;
-
+@media only screen and (min-width:767px){
+  nav{
+      margin-left: 30px;
+  }
 }
 
+
+form input[type="submit"] {
+    outline: none;
+    border: none;
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    margin-top: 27px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: #19BDB4;
+    color: #fff;
+    font-size: small;
+    font-weight: 600;
+    cursor: pointer;
 
 
